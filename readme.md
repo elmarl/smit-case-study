@@ -20,7 +20,7 @@ To start the application, run:
 
 ```bash
 cd booking_app
-uvicorn main:app --reload
+uvicorn booking_app.main:app --reload
 ```
 
 To add/edit/delete providers, edit the file booking_app/providers_config.json

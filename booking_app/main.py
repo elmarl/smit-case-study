@@ -2,7 +2,7 @@ from fastapi import FastAPI, Query, HTTPException
 from datetime import datetime
 import asyncio
 from pydantic import BaseModel
-from registry import ProviderRegistry
+from .registry import ProviderRegistry
 
 class BookingRequest(BaseModel):
     contactInformation: str

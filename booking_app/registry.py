@@ -1,6 +1,6 @@
 import json
-from providers.provider_one import ProviderOneAdapter
-from providers.provider_two import ProviderTwoAdapter
+from .providers.provider_one import ProviderOneAdapter
+from .providers.provider_two import ProviderTwoAdapter
 
 class ProviderRegistry:
     def __init__(self, config_path: str):
