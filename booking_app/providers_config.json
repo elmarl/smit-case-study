@@ -1,0 +1,18 @@
+[
+  {
+    "id": "provider_one",
+    "name": "London",
+    "address": "1A Gunton Rd, London",
+    "adapter": "ProviderOneAdapter",
+    "base_url": "http://localhost:9003/api/v1/tire-change-times",
+    "supported_vehicle_types": ["car"]
+  },
+  {
+    "id": "provider_two",
+    "name": "Manchester",
+    "address": "14 Bury New Rd, Manchester",
+    "adapter": "ProviderTwoAdapter",
+    "base_url": "http://localhost:9004/api/v2/tire-change-times",
+    "supported_vehicle_types": ["car", "truck"]
+  }
+]
